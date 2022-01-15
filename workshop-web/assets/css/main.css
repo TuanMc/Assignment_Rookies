@@ -1,0 +1,63 @@
+/* header */
+#header img {
+    height: 40px;
+}
+/* carousel */
+#slider .container-fluid {
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#slider .container-fluid .text-carousel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+#slider .container-fluid .text-carousel h4, h3 {
+    text-shadow: 1px 1px #000;
+}
+#slider .container-fluid .text-carousel h4 {
+    color: #CB2E54;
+}
+#slider .container-fluid .text-carousel h3 {
+    color: #fff;
+}
+
+/* content */
+#content {
+    padding-top: 20px;
+}
+#content .container-fluid {
+    margin: 20px
+}
+/* filter */
+#content .container-fluid .wrap-filter {
+    padding-right: 60px;
+}
+#content .container-fluid .side-filter .text-input-price,
+#content .container-fluid button {
+    margin-top: 20px;
+}
+
+/* products */
+#content .container-fluid .side-products .card {
+    text-align: center;
+}
+#content .container-fluid .side-products .card:hover h5 {
+    color: red;
+}
+#content .container-fluid .side-products .container {
+    padding-top: 20px;
+}
+#content .container-fluid .side-products .woman-products {
+    padding-top: 50px;
+}
+#content .container-fluid .side-products .card .card-body {
+    padding: 10px 0;
+}
+/* new products */
