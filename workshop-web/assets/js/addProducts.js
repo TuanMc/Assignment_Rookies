@@ -130,5 +130,5 @@ export function addProducts(title, type) {
                 </div>
             </div>
         </div>
-    `
+    `;
 }
