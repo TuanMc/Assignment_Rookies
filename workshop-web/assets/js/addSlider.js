@@ -11,7 +11,7 @@ const pictures = [
         id: 2,
         url: "https://github.com/Hoangthang017/Assignment_Rookies/blob/main/workshop-web/assets/img/slide_03.jpg?raw=true"
     }
-]
+];
 
 // function add pictures to html
 export function addSlider() {
@@ -29,5 +29,5 @@ export function addSlider() {
     }).join("");
 
     // add active pic
-    sliderElements.querySelector(".carousel-item").classList.add("active")
+    sliderElements.querySelector(".carousel-item").classList.add("active");
 }
