@@ -31,3 +31,5 @@ export function addSlider() {
     // add active pic
     sliderElements.querySelector(".carousel-item").classList.add("active")
 }
+
+// Load addSlider() imediately here
