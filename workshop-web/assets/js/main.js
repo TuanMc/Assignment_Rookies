@@ -1,6 +1,5 @@
 // import slider
 import { addSlider } from "./addSlider.js";
-addSlider();
 
 // import product
 import {addProducts} from "./addProducts.js"
